@@ -1,0 +1,187 @@
+/* 
+    Let's load in Work Sans Light, Regular, Medium and Bold
+    from Google Fonts (https://fonts.google.com/specimen/Work+Sans?selection.family=Work+Sans)
+*/
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Work Sans ExtraLight'), local('WorkSans-ExtraLight'), url(https://fonts.gstatic.com/s/worksans/v2/u_mYNr_qYP37m7vgvmIYZ4joYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Work Sans ExtraLight'), local('WorkSans-ExtraLight'), url(https://fonts.gstatic.com/s/worksans/v2/u_mYNr_qYP37m7vgvmIYZxampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v2/FD_Udbezj8EHXbdsqLUpl4joYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v2/FD_Udbezj8EHXbdsqLUplxampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/WB2LNay3rHMH1zU8UJnUHIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/ElUAY9q6T0Ayx4zWzW63VJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v2/Nbre-U_bp6Xktt8cpgwaJIjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v2/Nbre-U_bp6Xktt8cpgwaJBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGYjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+/* 
+    Write Your Own Styles Below Here
+*/
+aside{
+  margin: 30px;
+}
+h3{
+  font-size: 24px;
+}
+.level1{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  display: inline;
+  color: white;
+}
+nav{
+  text-align: right;
+}
+
+.content{
+  margin-left:150px;
+  margin-right:150px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.level2{
+  display: flex;
+  justify-content: center;
+}
+.top{
+  display: flex;
+  justify-content: center;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.gallery{
+  margin-left:150px;
+  margin-right:150px;
+}
+
+.right-pane{
+  margin:10px;
+}
+.left-pane{
+  margin:10px
+} 
+.bottom{
+  margin: 10px;
+}
+.right-top{
+  margin-bottom: 20px;
+}
+.header{
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  padding-left: 40px;
+  padding-right:40px;
+  padding-top: 10px;
+}
+h1{
+  font-size: 48px;
+  color: rgb(29, 133, 216);
+
+}
+.footer{
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 350px;
+  width: 100%;
+}
+
+.header img{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+.footer h2{
+  color:white;
+  text-align: center;
+  font-size: 36px;
+  padding: 50px;
+}
+.footer p{
+  color:white;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+}
+.footer a{
+  color: white;
+}
+.footer .button{
+  display: flex;
+  justify-content: center;
+}
+.footer .button a{
+  color: pink;
+  padding: 10px 30px;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}

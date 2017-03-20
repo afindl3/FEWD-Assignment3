@@ -1,0 +1,164 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+  clear: both;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #606161;
+}
+.header {
+  display: flex;
+  height: 100px;
+  background-color: #033048;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+.header h1{
+  color: white;
+  font-size: 36px;
+  font-weight: 800; /* extrabold */
+}
+.header a{
+  color: #f9e42e;
+  padding-left: 40px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600; /* semibold */
+}
+.header a:hover{
+  color: green;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: #f0efef;
+  padding: 50px;
+}
+.container .main{
+  width: 700px;
+  margin-right: 20px;
+}
+.container .main h1{
+  font-size: 40px;
+  font-weight: 600; /* semibold */
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #033048;
+}
+.container .first-letter{
+  font-size: 48px;
+  font-weight: 800;
+  float: left;
+  padding-right: 8px;
+}
+.container .main p{
+  font-size: 24px;
+  font-weight: 300; /* light */
+  margin-top: 10px;
+}
+.container .main a{
+  font-size: 24px;
+  font-weight: 600; /*semibold */
+  text-decoration: none;
+  color: #033048;
+  float: right;
+}
+hr{
+  margin-top: 60px;
+}
+.container .sidebar{
+  width: 240px;
+}
+.container .sidebar h2{
+  font-size: 32px;
+  font-weight: 800; /* extrabold */
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #033048;
+}
+.container .sidebar li{
+  font-size: 24px;
+  font-weight: 300; /* light */
+}
+.container .sidebar a{
+  color: #033048;
+  text-decoration: none;
+}
+.container .sidebar .advertisement{
+  margin-top: 50px;
+}
+.container a:hover{
+  color: green;
+}
+
+
+.signup{
+  background: #f9e42e;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup a{
+  color: white;
+  padding: 10px 40px;
+  background: #033048;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 12px;
+}
+.signup a:hover{
+  color: green;
+}
+
+
+.footer{
+  background: #121212;
+  height: 250px;
+}
+.footer h3{
+  color: #f9e42e;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+.footer h4{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 9px;
+  margin-top: 50px;
+}
+.footer .icons {
+  display: flex;
+  justify-content: center;
+}
+.footer a{
+  margin: 0px 10px;
+}
+
+
+
+
